@@ -1,0 +1,1 @@
+["com.particeep.test.akka.BasicActorTest","com.particeep.test.async.AsyncBasicTest","com.particeep.test.basic.ComputeAverageTest","com.particeep.test.basic.BasicScalaTest","com.particeep.test.akka.BasicStreamTest","com.particeep.test.basic.RefactoringTest"]

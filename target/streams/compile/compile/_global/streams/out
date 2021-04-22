@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/macbook/work/scala-interview/app/akka/BasicStream.scala:30:60: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : akka.stream.scaladsl.Sink[Any,scala.concurrent.Future[akka.Done]][0m
+[0m[[0m[31merror[0m] [0m[0m required: akka.stream.scaladsl.Sink[Int,java.util.concurrent.Future[akka.Done]][0m
+[0m[[0m[31merror[0m] [0m[0m    val consoleSink: Sink[Int, Future[Done]] = Sink.foreach(println)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

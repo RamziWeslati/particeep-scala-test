@@ -1,0 +1,58 @@
+[0m[[0m[0mdebug[0m] [0m[0mjavaOptions: Vector()[0m
+[0m[[0m[0mdebug[0m] [0m[0mForking tests - parallelism = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreate a single-thread test executor[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for org.scalatest.tools.Framework produced 6 initial tasks for 6 tests.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.particeep.test.akka.BasicActorTest, sbt.ForkMain$SubclassFingerscan@4678c730, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicActorTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mFireActor[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should print 'Hello there.' and 'What?' when after calling fireActor[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.particeep.test.async.AsyncBasicTest, sbt.ForkMain$SubclassFingerscan@6767c1fc, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAsyncBasicTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAsyncBasic[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute the result of two valid calls to webservices[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a left with the error message that states Webservice1 failure when computing 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a left with the error message that states Webservice1's failure when computing 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return a left with the error message that states Webservice2's failure when computing 5[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return Int.MaxValue + 1987 when computing 10[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 5 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.particeep.test.basic.ComputeAverageTest, sbt.ForkMain$SubclassFingerscan@29ee9faa, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mComputeAverageTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mComputeAverage[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute the average of a list of doubles[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.particeep.test.basic.BasicScalaTest, sbt.ForkMain$SubclassFingerscan@c038203, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicScalaTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicScala[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should encode parameters in url[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute email[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should compute the power of n[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.particeep.test.akka.BasicStreamTest, sbt.ForkMain$SubclassFingerscan@cc285f4, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicStreamTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mBasicStream[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should stream all even numbers between 1 and 1000[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 1 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Running TaskDef(com.particeep.test.basic.RefactoringTest, sbt.ForkMain$SubclassFingerscan@55f3ddb1, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRefactoringTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRefactoring[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get categories of a list of files[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get categories of a null[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should get categories of a list of files containing nulls[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Produced 0 nested tasks and 3 events.[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunner for com.novocode.junit.JUnitFramework produced 0 initial tasks for 0 tests.[0m
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 661 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 14[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 6, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 14, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSummary for JUnit not available.[0m
+[0m[[0m[0minfo[0m] [0m[0mPassed: Total 14, Failed 0, Errors 0, Passed 14[0m
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.particeep.test.akka.BasicActorTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.particeep.test.async.AsyncBasicTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.particeep.test.basic.ComputeAverageTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.particeep.test.basic.BasicScalaTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.particeep.test.akka.BasicStreamTest[0m
+[0m[[0m[0mdebug[0m] [0m[0m	com.particeep.test.basic.RefactoringTest[0m

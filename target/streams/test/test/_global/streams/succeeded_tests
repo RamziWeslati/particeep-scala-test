@@ -1,0 +1,8 @@
+#Successful Tests
+#Thu Apr 22 22:34:57 CET 2021
+com.particeep.test.async.AsyncBasicTest=1619127295322
+com.particeep.test.basic.RefactoringTest=1619127297469
+com.particeep.test.basic.BasicScalaTest=1619127295350
+com.particeep.test.akka.BasicStreamTest=1619127297449
+com.particeep.test.akka.BasicActorTest=1619127295233
+com.particeep.test.basic.ComputeAverageTest=1619127295340
