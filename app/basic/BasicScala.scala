@@ -36,8 +36,7 @@ object BasicScala {
   /**
    * Test if a String is an email
    */
-  def isEmail(maybeEmail: String): Boolean = true
-
+  def isEmail(maybeEmail: String): Boolean = """^[^@\s]+@[^@\s\.]+\.[^@\.\s]+$""".r.unapplySeq(maybeEmail).isDefined
   /**
    * Compute i ^ n
    *

@@ -1,19 +1,12 @@
-# Interview for scala developer at Particeep
+# particeep-scala-test
 
-Do your best with the questions, we will review your answer in a on-site interview
+This repository holds the [work required by Particeep](https://github.com/Particeep/scala-interview) in order to be considered as a potential candidate for the role of scala developer at Particeep.
 
-The goal is to see how you code so everything is important.
+# Test
 
-Bonus point if you use functional programming
+I have added unit tests for the different solutions, to test the implementation:
+git clone the repository and run `sbt test`
 
-# Setup
+# Who you gonna call ![Ghostbusters](https://i.ibb.co/J3WD1ct/Webp-net-resizeimage.png)
 
-git clone the repository and run `sbt clean update compile` and you should be ready to go
-
-# Questions
-
-Do the questions in this order
-
-* basic
-* async
-* akka
+Ramzi Oueslati, Junior software engineer, [email](mailto:ramzi.oueslati@ensi-uma.tn)

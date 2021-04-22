@@ -17,7 +17,9 @@ class BasicScalaTest extends PlaySpec {
     }
     "compute email" in {
       isEmail("jean@particeep.com") mustBe true
-      // isEmail("jean_particeep.com") mustBe false
+      isEmail("jean_particeep.com") mustBe false
+      isEmail("jean@particeepcom") mustBe false
+      isEmail("jean adds@particeep.com") mustBe false
     }
     "compute the power of n" in {
       power(2, 3) mustBe 8
